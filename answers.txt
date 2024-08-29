@@ -1,0 +1,17 @@
+Exercise 1.1.1:
+1. Run git help at the command line. What is the first command listed?
+Ans: clone             Clone a repository into a new directory
+
+
+Exercise 1.2.1:
+1. By running ls -a (discussed in Learn Enough Command Line to Be Dangerous), list all the files and directories in your website directory. What is the name of the hidden directory used by the Git repository? (There is one such hidden directory per project.)
+Ans : .git
+
+Exercise 1.4.1:
+1.Use touch to create an empty file called baz. What happens if you run git commit -am "Add baz"?
+Ans: baz is a new file and not yet tracked by Git, the git commit -am "Add baz" command will not include baz in the commit. Fist we need to add that files to the staging area using git add command.
+
+Exercise 2.3.1
+2.Commit your change with an appropriate message (Box 1.4). You don’t have to run git add. Why not?
+Ans: Because that file is already added and we use git add to only add the new files.
+
