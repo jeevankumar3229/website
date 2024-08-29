@@ -19,7 +19,7 @@ touch foo bar
 git add foo
 
 #3.Using git commit -m and an appropriate message, add foo to the repository.
-git commit -m "Commiting file foo"
+git commit -m "Add foo"
 
 #4.By using git add bar, add bar to the staging area. Confirm with git status that it worked.
 git add bar
